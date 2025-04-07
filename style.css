@@ -1,0 +1,401 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+body {
+    background-color: #fff;
+    margin: 0%;
+}
+
+.home-background {
+    background-image: url(background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    background-color: #1fb7bd;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    border-bottom: #1fb7bd solid 2px;
+}
+
+.header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    font-size: 65px;
+    margin-left: 5%;
+    margin-right: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: 25px;
+    text-decoration: none;
+    font-size: 60px;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+.header a:hover {
+    color: #cdcdcd;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.home-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 30px;
+    margin-right: 55%;
+}
+
+.home-buttons a {
+    text-decoration: none;
+}
+
+.home-buttons button {
+    background-color: #1fb7bd;
+    color: #fff;
+    border-radius: 10px;
+    height: 140px;
+    width: 550px;
+    font-size: 45px;
+    cursor: pointer;
+    font-family: "DM Serif Text";
+    box-shadow: 10px 10px 5px black;
+    transition-property: transform box-shadow;
+    transform: translateX(0px) translateY(0px);
+    transition-duration: 0.3s;
+}
+
+.home-buttons button:hover {
+    transform: translateX(10px) translateY(10px);
+    box-shadow: 0px 0px 0px black;
+}
+
+.box-1 {
+    display: flex;
+    max-width: 700px;
+    max-height: 700px;
+    background-color: #1fb7bd;
+    box-shadow: 10px 10px 5px;
+    border-radius: 12%;
+    margin-left: 10%;
+    margin-right: 20px;
+}
+
+.box-1 p {
+    justify-content: center;
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    font-family: Cambria;
+    padding: 15px;
+    margin: auto;
+}
+
+/* Allergy Select */
+.allergy-select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 200px); 
+    grid-template-rows: repeat(3, 200px); 
+    gap: 40px; 
+    justify-content: center;
+    height: 600px;
+    margin-top: 60px;
+}
+
+.button-grid a {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-decoration: none; 
+}
+
+.button-grid button {
+    width: 160px;  
+    height: 160px; 
+    border-radius: 50%; 
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #1fb7bd;
+    border: solid 2px #515277;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.button-grid button img {
+    width: 60%;
+}
+
+.button-grid button:hover {
+    background-color: #0c686c;
+}
+
+
+.button-grid span {
+    font-size: 20px;
+    color: #515277;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* Peanuts Page */
+
+#peanut-title {
+    color: #1fb7bd;
+    font-size: 100px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: Roboto;
+}
+
+#heading {
+    margin-top: 50px;
+    font-family: Roboto;
+    color: #1fb7bd;
+    font-size: 60px;
+    margin-left: 40px;
+}
+
+.container-2 {
+    display: flex;
+    align-items: flex-start; 
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#buttons button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #1fb7bd;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 400px;
+    height: 100px;
+    font-size: 50px;
+    font-family: "DM Serif Text";
+    box-shadow: 10px 10px 5px black;
+    transition-property: transform box-shadow;
+    transform: translateX(0px) translateY(0px);
+    transition-duration: 0.3s;
+}
+
+#buttons button:hover {
+    transform: translateX(10px) translateY(10px);
+    box-shadow: 0px 0px 0px black;
+}
+
+#list {
+    margin-top: 20px;
+    font-family: Roboto;
+    color: #1fb7bd;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+#list li {
+    margin-top: 20px;
+}
+
+#buttons #btn-abrecipe {
+    font-size: 35px;
+}
+
+/* Peanut Recipes Page */
+
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.title h1 {
+    color: #1fb7bd;
+    font-size: 50px;
+    font-family: "DM Serif Text";
+}
+
+.links {
+    text-align: center;
+}
+
+.links a {
+    font-size: 25px;
+    color: #1fb7bd;
+    text-decoration: none;
+    transition: color;
+    transition-duration: 0.5s;
+    margin: 20px;
+    font-family: "DM Serif Text";
+}
+
+.links a:hover {
+    color: #0c686c;
+}
+.recipecontainer {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 80px;
+}
+
+.in {
+    margin-left: 25px;
+    width: 50%;
+    margin-right: 60px;
+}
+
+.recipecontainer h2{
+    font-size: 30px;
+    color: #1fb7bd;
+    font-family: "DM Serif Text";
+}
+
+.recipecontainer li {
+    font-size: 20px;
+    font-family: "Roboto";
+}
+
+.recipecontainer img {
+    width: auto;
+    height: auto;
+    margin-right: 0;
+    margin-top: 100px;
+}
+
+/* Local Allergists */
+
+.local-title {
+    font-size: 55px;
+    color: #1fb7bd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 70px;
+    margin-left: 15%;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 80%;
+    display: block;
+}
+
+.allergist-name {
+    font-size: 30px;
+    color: #1fb7bd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 2%;
+    font-weight: bold;
+}
+
+.location {
+    font-size: 25px;
+    color: #1fb7bd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5%;
+    margin-bottom: 35px;
+}
+
+/* Phone Size Settings */
+
+@media (max-width: 576px) {
+
+    .header {
+        height: 10%;
+    }
+
+    .header h1 {
+        font-size: 30px;
+        margin: 0;
+        height: 10% ;
+    }
+
+    .header a {
+        font-size: 30px;
+        margin: 10px;
+    }
+
+    .container-1 {
+        flex-direction: column;
+    }
+
+    .home-buttons button {
+        width: 300px;
+        height: 100px;
+        font-size: 25px;
+    }
+
+    .box-1 {
+        width: 340px;
+        height: 300px;
+        background-color: #2220;
+        box-shadow: none;
+    }
+
+    .box-1 p {
+        font-size: 30px;
+    }
+
+    .button-grid {
+        grid-template-columns: 200px;
+    }
+
+    #buttons h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    #buttons button {
+        width: 300px;
+        font-size: 30px;
+        height: 75px;
+    }
+
+    .container-2 {
+        flex-direction: column;
+    }
+
+    #heading {
+        font-size: 50px;
+    }
+
+    #list {
+        font-size: 25px;
+    }
+
+}
